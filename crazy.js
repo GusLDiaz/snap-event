@@ -1,15 +1,15 @@
 // var n1 = 1;
 // var n2 = 1;
-var red = document.getElementById('red');
+var blue = document.getElementById('red');
 
 
 function random(number) {
 	return Math.floor(Math.random() * (number + 1));
 	// return n1 = Math.floor(Math.random() * (number + 1));
 }
-	red.onclick = function() {
+	blue.onclick = function() {
 		let sizeRandomHeight = '' + random(700) + 'px';
 		let sizeRandomWidth = '' + random(700) + 'px';
-		document.body.style.height = sizeRandomHeight;
-		document.body.style.width = sizeRandomWidth;
+		#red.style.height = sizeRandomHeight;
+		#red.body.style.width = sizeRandomWidth;
 	};
