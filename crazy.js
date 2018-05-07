@@ -1,6 +1,6 @@
 // var n1 = 1;
 // var n2 = 1;
-var red = document.getElementsByName('button');
+var red = document.getElementById('red');
 
 
 function random(number) {
