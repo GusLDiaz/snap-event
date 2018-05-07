@@ -8,8 +8,8 @@ function random(number) {
 	// return n1 = Math.floor(Math.random() * (number + 1));
 }
 	btn.onclick = function() {
-		var sizeRandomHeight = '' + random(100) + 'px';
-		var sizeRandomWidth = '' + random(100) + 'px';
+		let sizeRandomHeight = '' + random(700) + 'px';
+		let sizeRandomWidth = '' + random(700) + 'px';
 		document.body.style.height = sizeRandomHeight;
 		document.body.style.width = sizeRandomWidth;
-	}
+	};
